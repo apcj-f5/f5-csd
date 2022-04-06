@@ -1,0 +1,19 @@
+{
+  "name": "F5 Client Side Defence",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Client Side Defence",
+  "homepage_url": "https://apcj.f5labs.dev",
+  "background": {
+    "scripts": [
+      "src/background.js",
+      "src/inject.js"
+    ],
+    "persistent": true
+  },
+    "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
